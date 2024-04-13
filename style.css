@@ -20,7 +20,7 @@ body {
 
 /* ----------------------page 1----------------------  */
 #page1 {
-  min-height: 100vh;
+  min-height: 120vw;
   width: 100%;
   background-color: #efeae3;
   position: relative;
@@ -150,7 +150,7 @@ nav {
   width: 50vw;
   height: 36vw;
   right: -5%;
-  top: 46vw;
+  top: 36vw;
 }
 
 #hero-1 {
