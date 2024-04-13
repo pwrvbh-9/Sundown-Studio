@@ -114,7 +114,7 @@ nav {
 }
 
 #center {
-  height: 70vh;
+  height: 32vw;
   width: 100%;
   align-items: end;
   display: flex;
@@ -249,7 +249,7 @@ nav {
 }
 
 #page2-bottom {
-  height: 100vh;
+  height: 40vw;
   width: 100%;
   padding: 4.5vw;
   display: flex;
@@ -281,8 +281,8 @@ nav {
 }
 
 #blur-shape {
-  height: 27vw;
-  width: 27vw;
+  height: 30vw;
+  width: 30vw;
   position: absolute;
   border-radius: 50%;
   background: linear-gradient(to top right, #fe320a, #fe670a);
@@ -389,14 +389,14 @@ nav {
 /* --------------------------page 4 ----------------------- */
 
 #page4 {
-  min-height: 130vh;
+  min-height: 110vh;
   width: 100%;
   background-color: #efeae3;
   padding: 4vw 2vw;
 }
 
 #center1 {
-  height: 100vh;
+  height: 50vw;
   width: 100%;
   display: flex;
   align-items: center;
@@ -494,12 +494,12 @@ nav {
 /* ----------------------page 6 ------------------------ */
 
 #page6 {
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
 }
 
 #footer {
-  height: 100vh;
+  height: 60vw;
   width: 100%;
   background-color: #000;
   position: fixed;
@@ -1124,7 +1124,7 @@ nav {
   }
 
   #page5 {
-    height: 80vh;
+    height: 70vw;
   }
 
   /* swiper js style code  */
@@ -1150,8 +1150,12 @@ nav {
     width: 100%;
   }
 
+  #footer {
+    height: 70vw;
+  }
+
   #footer-div {
-    height: 50vh;
+    height: 50vw;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -1200,7 +1204,7 @@ nav {
   }
 
   #center {
-    height: 70vh;
+    height: 40vw;
     width: 100%;
     align-items: end;
     display: flex;
@@ -1214,7 +1218,7 @@ nav {
     object-fit: cover;
     object-position: center;
     margin-left: 4%;
-    height: 70vh;
+    height: 50vw;
     width: 92%;
   }
 
@@ -1225,7 +1229,7 @@ nav {
   }
 
   #page2-bottom {
-    height: 100vh;
+    height: 50vw;
     width: 100%;
     padding: 4.5vw;
     display: flex;
@@ -1299,7 +1303,7 @@ nav {
   }
 
   #page5 {
-    height: 50vw;
+    height: 60vw;
   }
 
   /* swiper js style code  */
@@ -1327,7 +1331,7 @@ nav {
   }
 
   #footer-div {
-    height: 40vh;
+    height: 20vw;
     width: 100%;
     display: flex;
     justify-content: space-between;
