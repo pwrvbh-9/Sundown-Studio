@@ -425,7 +425,7 @@ nav {
 .left-side-heading::before {
   content: "";
   position: absolute;
-  height: 15vw;
+  height: 200px;
   width: 2px;
   background-color: #fe320a;
   left: 4vw;
@@ -1193,8 +1193,12 @@ nav {
 }
 
 @media (max-width: 1024px) and (min-width: 767px) {
-  #page1 {
+  /* #page1 {
     padding: 0;
+  } */
+
+  #page1 {
+    height: 120vw;
   }
 
   nav {
@@ -1348,7 +1352,7 @@ nav {
 .left-side-heading::before {
   content: "";
   position: absolute;
-  height: 16.5vw;
+  height: 135px;
   width: 2px;
   background-color: #fe320a;
   left: 3vw;
@@ -1383,7 +1387,7 @@ nav {
   
 
   #page5 {
-    height: 60vw;
+    height: 55vw;
   }
 
   /* swiper js style code  */
