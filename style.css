@@ -543,8 +543,8 @@ nav {
 }
 
 #footer-btm-2 {
-  font-size: 2vh;
-  margin-top: 2vh;
+  font-size: 1vw;
+  margin-top: 2vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -870,8 +870,16 @@ nav {
 
   /* -------------------page 6 / footer--------------- */
 
+  #page6 {
+height: 100vw;
+  }
+
+  #footer {
+    height: 100vw;
+  }
+  
   #footer-div {
-    height: 60vh;
+    height: 60vw;
     justify-content: space-evenly;
     align-items: flex-start;
     flex-direction: column;
@@ -895,7 +903,7 @@ nav {
   }
 
   #footer-btm-2 {
-    font-size: 2vh;
+    font-size: 2vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1184,8 +1192,8 @@ nav {
   }
 
   #footer-btm-2 {
-    font-size: 2vh;
-    margin-top: 2vh;
+    font-size: 1.5vw;
+    margin-top: 2vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1228,6 +1236,10 @@ nav {
     margin-left: 4%;
     height: 50vw;
     width: 92%;
+  }
+
+  #hero-blur {
+    top: 46vw;
   }
 
   .circle {
@@ -1444,8 +1456,8 @@ nav {
   }
 
   #footer-btm-2 {
-    font-size: 2vh;
-    margin-top: 2vh;
+    font-size: 1.4vw;
+    margin-top: 2vw;
     display: flex;
     align-items: center;
     justify-content: center;
