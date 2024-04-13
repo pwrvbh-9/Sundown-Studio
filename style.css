@@ -411,33 +411,33 @@ nav {
 .left-side {
   position: absolute;
   left: 0;
-  padding-left: 7vh;
+  padding-left: 4vw;
 }
 
 .left-side-heading {
-  padding-left: 4vh;
+  padding-left: 2vw;
 }
 
 .left-side-heading h2 {
-  font-size: 10vh;
+  font-size: 60px;
 }
 
 .left-side-heading::before {
   content: "";
   position: absolute;
-  height: 33vh;
+  height: 15vw;
   width: 2px;
   background-color: #fe320a;
-  left: 7vh;
+  left: 4vw;
 }
 
 .left-side-para {
-  padding: 2vh 0;
-  width: 53vh;
+  padding: 2vw 0;
+  width: 30vw;
 }
 
 .left-side-para p {
-  padding-right: 3vh;
+  padding-right: 3vw;
   font-weight: 200;
   font-size: 15px;
 }
@@ -1150,8 +1150,12 @@ nav {
     width: 100%;
   }
 
+  #page6 {
+    height: 60vw;
+  }
+
   #footer {
-    height: 70vw;
+    height: 60vw;
   }
 
   #footer-div {
@@ -1228,6 +1232,10 @@ nav {
     margin: 1vw 2vw;
   }
 
+  #page2 {
+    min-height: 80vw;
+  }
+
   #page2-bottom {
     height: 50vw;
     width: 100%;
@@ -1302,6 +1310,78 @@ nav {
     display: none;
   }
 
+  
+#page4 {
+  min-height: 60vw;
+  width: 100%;
+  background-color: #efeae3;
+  padding: 4vw 2vw;
+}
+
+#center1 {
+  height: 50vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4vw;
+  background-color: black;
+  color: #fff;
+  border-radius: 20px;
+  position: relative;
+}
+
+.left-side {
+  position: absolute;
+  left: 0;
+  padding-left: 3vw;
+}
+
+.left-side-heading {
+  padding-left: 1vw;
+}
+
+.left-side-heading h2 {
+  font-size: 40px;
+}
+
+.left-side-heading::before {
+  content: "";
+  position: absolute;
+  height: 16.5vw;
+  width: 2px;
+  background-color: #fe320a;
+  left: 3vw;
+}
+
+.left-side-para {
+  padding: 2vw 0;
+  width: 30vw;
+}
+
+.left-side-para p {
+  padding-right: 3vw;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.right-side {
+  width: 50vw;
+  background-size: cover;
+  background-position: center;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.right-side img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+  
+
   #page5 {
     height: 60vw;
   }
@@ -1328,6 +1408,10 @@ nav {
     padding-top: 2vw;
     width: 90%;
     font-weight: 300;
+  }
+
+  #page6 {
+    height: 60vw;
   }
 
   #footer-div {
@@ -1388,6 +1472,7 @@ nav {
     width: 90%;
     font-weight: 300;
   }
+
 }
 
 /* -------------------starting animation--------------------- */
