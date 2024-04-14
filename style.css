@@ -88,7 +88,7 @@ nav {
 }
 
 #open-menu {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: #00000070;
   position: fixed;
@@ -766,13 +766,8 @@ nav {
     height: 100vw;
     width: 85vw;
     border-radius: 20px;
-    /* transition: all ease 0.3s; */
-    /* overflow: hidden; */
   }
 
-  /* .elements img:hover {
-    filter: blur(2px);
-  } */
 
 
   .elements h2 {
