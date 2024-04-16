@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"); */
+
 @font-face {
   font-family: neuMedium;
   src: url(./NeueHaasDisplayMediu.ttf);
@@ -19,8 +19,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: neuMedium; */
-  /* font-family: "Public Sans", sans-serif; */
 }
 
 #main {
