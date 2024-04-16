@@ -1,10 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"); */
+@font-face {
+  font-family: neuMedium;
+  src: url(./NeueHaasDisplayMediu.ttf);
+}
+
+@font-face {
+  font-family: neuThin;
+  src: url(./NeueHaasDisplayThin.ttf);
+}
+
+@font-face {
+  font-family: neuLight;
+  src: url(./NeueHaasDisplayLight.ttf);
+}
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Public Sans", sans-serif;
+  /* font-family: neuMedium; */
+  /* font-family: "Public Sans", sans-serif; */
 }
 
 #main {
@@ -45,6 +61,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 1vw;
+  
 }
 
 #nav-links h4 {
@@ -53,10 +70,12 @@ nav {
   border-radius: 50px;
   color: #000000bb;
   font-size: 18px;
-  font-weight: 500;
+  font-family: neuThin;
+  /* font-weight: 500; */
   position: relative;
   transition: all ease 0.4s;
   overflow: hidden;
+  /* font-family: neuThin; */
 }
 
 #nav-links h4::after {
@@ -122,6 +141,7 @@ nav {
   padding: 2vw;
   border-bottom: 1px solid #8a8a8a89;
   padding-bottom: 2.5vw;
+  font-family: neuMedium;
 }
 
 #left p {
@@ -213,6 +233,7 @@ nav {
 #moving-text {
   white-space: nowrap;
   overflow-x: auto;
+  font-family: neuMedium;
 }
 
 #moving-text h1 {
@@ -263,6 +284,7 @@ nav {
   font-size: 4vw;
   width: 60%;
   line-height: 4vw;
+  font-family: neuMedium;
 }
 
 #bottom-2 {
@@ -275,6 +297,7 @@ nav {
 }
 
 #bottom-2 p {
+  font-family: neuLight;
   font-weight: 200;
   margin-top: 2vw;
   font-size: 1vw;
@@ -320,6 +343,7 @@ nav {
   display: flex;
   align-items: center;
   padding: 3vw 2vw;
+  font-family: neuThin;
 }
 
 #page-title p {
@@ -349,6 +373,7 @@ nav {
 }
 
 .elements h2 {
+  font-family: neuMedium;
   font-size: 3.5vw;
   position: relative;
   z-index: 9;
@@ -420,6 +445,7 @@ nav {
 
 .left-side-heading h2 {
   font-size: 60px;
+  font-family: neuMedium;
 }
 
 .left-side-heading::before {
@@ -434,6 +460,7 @@ nav {
 .left-side-para {
   padding: 2vw 0;
   width: 30vw;
+  font-family: neuLight;
 }
 
 .left-side-para p {
@@ -486,6 +513,7 @@ nav {
 }
 
 .swiper-slide p {
+  font-family: neuLight;
   padding-top: 2vw;
   width: 70%;
   font-weight: 300;
@@ -514,6 +542,7 @@ nav {
 
 #footer h1 {
   font-size: 21vw;
+  font-family: neuMedium;
 }
 
 #footer-div {
@@ -528,6 +557,11 @@ nav {
 
 #footer-div #footer-elem1 h2 {
   font-size: 2.2vw;
+  font-family: neuMedium;
+}
+
+#footer-div #footer-elem2 {
+  font-family: neuLight;
 }
 
 #footer-bottom {
@@ -540,6 +574,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-family: neuMedium;
 }
 
 #footer-btm-2 {
@@ -548,6 +583,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: neuLight;
 }
 
 .shape-blur1 {
@@ -1496,6 +1532,7 @@ nav {
 }
 
 #loader h1 {
+  font-family: neuMedium;
   color: transparent;
   position: absolute;
   font-size: 4vw;
